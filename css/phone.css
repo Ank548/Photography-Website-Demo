@@ -1,0 +1,169 @@
+/* *{
+    border: 1px solid;
+} */
+
+.sec5{
+    flex-direction: column;
+}
+
+#mar img{
+    width: 28vw;
+    height: 22vw;
+}
+
+#mar2 img{
+    width: 28vw;
+    height: 35vw;
+}
+
+.date2{
+    display: none;
+}
+
+.date{
+    display: block;
+    width: 80vw;
+    display: flex;
+    justify-content: right;
+}
+
+.sec6{
+    padding-top: 0;
+}
+
+.sec3{
+    padding-top: 4%;
+}
+
+.sec{
+    padding-top:5%
+}
+
+@media only screen and (min-width:600px) and (max-width:680px){
+    .sec3{
+        padding-top: 5.5%;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:600px){
+    .sec3{
+        padding-top: 6.5%;
+    }
+}
+
+#sec65 div{
+    margin-bottom: 42px;
+}
+
+.hamburger{
+    display: none;
+    position: absolute;
+    top: 77.2px;
+    right: 0;
+    background-color: rgba(222, 221, 221, 0.988);
+    width: 40%;
+    height: 100vh;
+}
+
+.hamburger ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.hamburger ul li a{
+    margin: 15px 0;
+}
+
+#bars {
+    display: block;
+}
+
+#check:checked~.hamburger{
+    display: block;
+}
+
+#check:checked~label #bars {
+    display: none;
+}
+
+#check:checked~label #cross {
+    display: block;
+}
+
+label{
+    position: absolute;
+    top: 24px;
+    right: 3vw;
+    font-size: 32px;
+}
+
+header{
+    justify-content: center;
+}
+
+/* RESPONSIVE 620PX */
+
+@media only screen and (max-width:620px){
+    .sec5{
+        justify-content: center;
+    }
+
+    .padi{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sec div{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .sec .imgd div{
+        margin:3% 3% ;
+    }
+
+    .footernav{
+        display: none;
+    }
+
+    .foot .copyr{
+        margin: 30px 0;
+    }
+}
+
+@media only screen and (max-width:480px){
+    
+        .intro .introimg{
+            width:90vw;
+            height: 90vw;
+        } 
+
+        .sec5 img{
+            width: 80vw;
+        }
+
+        .intro .introh{
+            width:85vw ;
+        }
+
+        .intro .introh p{
+            font-size:11vw;
+            line-height: 10vw;
+        }
+
+        .hamburger{
+            width: 80%;
+        }
+
+        .heading{
+            padding-right: 16px;
+        }
+
+        .sec3{
+            padding-top: 7.5%;
+        }
+    
+}
